@@ -89,6 +89,14 @@
         },
         "card_assets": true,
         "custom": {
+            "announcement_text": {
+                "type": "text"
+            },
+            "announcement_color": {
+                "type": "select",
+                "options": ["Light", "Accent color", "Dark"],
+                "default": "Light"
+            },
             "navigation_layout": {
                 "type": "select",
                 "options": [
